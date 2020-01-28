@@ -1,0 +1,41 @@
+/*
+    Brian de Raad
+    bderaad1@my.smccd.edu
+    CIS 128 OLH
+    homework1 - main.css
+    Test your knowledge of HTML5, and CSS3
+    2020-01-27
+*/
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+/* the styles for the links */
+a:hover, a:focus {font-style: italic}
+
+/* the styles for the header */
+header h1 {
+	font-size: 170%;
+    color: #800000;
+}
+
+/* the styles for the main section */
+main img {
+	float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+main #reason {
+	clear: left;
+}
+main h2{
+	font-size: 130%;
+    color: #800000;
+}
+
+/* the styles for the footer */
+footer p {
+    text-align: center;
+}
