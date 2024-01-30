@@ -4,7 +4,7 @@
     CIS 128 OLH
     homework1 - main.css
     Test your knowledge of HTML5, and CSS3
-    2020-01-27
+    2024-01-29
 */
 /* the styles for the elements */
 body {
@@ -22,6 +22,9 @@ header h1 {
 }
 
 /* the styles for the main section */
+main {
+    margin-bottom: 2em;
+}
 main img {
 	float: left;
     margin-right: 1em;
@@ -33,9 +36,7 @@ main #reason {
 main h2{
 	font-size: 130%;
     color: #800000;
-}
-main dl{
-    margin-left: 1em;
+    text-align: center;
 }
 
 /* the styles for the footer */
