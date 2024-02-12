@@ -2,9 +2,9 @@
     Brian de Raad
     bderaad1@my.smccd.edu
     CIS 128 OLH
-    homework1a - main.css
+    homework1 - main.css
     Add a small piece of jQuery in your page that you delivered for Homework 1
-    2020-02-17
+    2024-02-12
 */
 /* the styles for the elements */
 body {
@@ -24,6 +24,9 @@ header h1 {
 }
 
 /* the styles for the main section */
+main {
+    margin-bottom: 2em;
+}
 main img {
 	float: left;
     margin-right: 1em;
@@ -36,9 +39,7 @@ main #reason {
 main h2{
 	font-size: 130%;
     color: #800000;
-}
-main dl{
-    margin-left: 1em;
+    text-align: center;
 }
 #animate {
     font-size: 130%;

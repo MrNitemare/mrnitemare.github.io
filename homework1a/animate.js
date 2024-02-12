@@ -6,7 +6,7 @@
     CIS 128 OLH
     homework1a - animate.js
     Add a small piece of jQuery in your page that you delivered for Homework 1
-    2020-02-17
+    2024-02-12
 */
 $(document).ready(function() {
     $("#animate").click(function() {
@@ -18,11 +18,7 @@ $(document).ready(function() {
             } // end callback()
         ); // end animate()
         $("header h1").animate(
-            {"font-size": "170%", left: "-=200"}, 3000,
-            function() {
-                $("header h1").css("color", "#800000");
-                $("main img").css({border: 'none'});
-            } // end callback()
-        ); // end animate()      
+            {"font-size": "170%", left: "-=200"}, 3000
+        ); // end animate()
     }); // end click()
 }); // end ready()
