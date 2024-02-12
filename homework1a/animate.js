@@ -14,6 +14,6 @@ $(document).ready(function() {
         $("main img").css({border: '8px solid #f37736'});
         $("header h1").animate({"font-size": "250%", left: "+=200"}, 4000);
         $("header h1").animate({"font-size": "170%", left: "-=200"}, 3000);
-    	var timer = setTimeout(function() {$("header h1").css("color", "black")}, 7000);
+    	var timer = setTimeout(function() {$("header h1").css("color", "black")}, 5000);
     }); // end click()
 }); // end ready()
