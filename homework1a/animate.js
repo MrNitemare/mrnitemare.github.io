@@ -16,7 +16,7 @@ $(document).ready(function() {
         $("header h1").animate({"font-size": "170%", left: "-=200"}, 3000);
     	var timer = setTimeout(function() {
 		$("header h1").css("color", "black");
-    		$("main img").css({"border" "none"});
+    		$("main img").css({"border", "none"});
 	}, 5000); // end setTimeout()
     }); // end click()
 }); // end ready()
