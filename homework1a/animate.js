@@ -17,6 +17,6 @@ $(document).ready(function() {
     	var timer = setTimeout(function() {
 		$("header h1").css("color", "black");
     		$("main img").css({border: 'none'});
-	}, 5000); // end setTimeout()
+	}, 7000); // end setTimeout()
     }); // end click()
 }); // end ready()
