@@ -1,5 +1,5 @@
 "use strict";
-/*global $, jQuery*/
+/* global $ */
 /*
     Brian de Raad
     bderaad1@my.smccd.edu
